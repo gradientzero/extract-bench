@@ -1,8 +1,10 @@
 {
   "personalInfo": {
     "fullName": "Sarah Mitchell",
-    "emails": "sarah.mitchell@examplemail.co.uk",
-    "phones": "123456789",
+    "contact": {
+      "emails": ["sarah.mitchell@examplemail.co.uk"],
+      "phones": ["123456789"]
+    },
     "personalStatement": "Results-driven finance professional with 12+ years of experience in financial analysis, risk management, and strategic planning."
   },
   "certificationsAndAwards": [],

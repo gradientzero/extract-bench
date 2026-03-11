@@ -1,8 +1,10 @@
 {
   "personalInfo": {
     "fullName": "Dr. Amanda Rodriguez, MD",
-    "emails": "a.rodriguez@hospexample.org",
-    "phones": "(617) 555-0276",
+    "contact": {
+      "emails": ["a.rodriguez@hospexample.org"],
+      "phones": ["(617) 555-0276"]
+    },
     "personalStatement": "Board-certified cardiologist with 16+ years of experience in interventional cardiology, clinical research, and patient care"
   },
   "media": [],
@@ -87,14 +89,14 @@
       "category": "Board Certifications",
       "organization": "National Board of Internal Medicine",
       "description": "Cardiology",
-      "date": 2011
+      "date": "2011"
     },
     {
       "array_index": 1,
       "category": "Board Certifications",
       "organization": "National Board of Internal Medicine",
       "description": "Interventional Cardiology",
-      "date": 2014
+      "date": "2014"
     },
     {
       "array_index": 2,
@@ -107,14 +109,14 @@
       "authors": "Rodriguez A, et al.",
       "title": "Outcomes of TAVR in High-Risk Patients",
       "publisher": "Journal of Cardiology",
-      "year": 2023
+      "year": "2023"
     },
     {
       "array_index": 1,
       "authors": "Rodriguez A, et al.",
       "title": "Novel Biomarkers in Heart Failure",
       "publisher": "Cardiovascular Medicine",
-      "year": 2021
+      "year": "2021"
     }
   ],
   "other": [

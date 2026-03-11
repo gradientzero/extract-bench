@@ -1,8 +1,10 @@
 {
   "personalInfo": {
     "fullName": "Jennifer Walsh",
-    "emails": "j.walsh@emailexample.com",
-    "phones": "(503) 555-0891",
+    "contact": {
+      "emails": ["j.walsh@emailexample.com"],
+      "phones": ["(503) 555-0891"]
+    },
     "personalStatement": "Dynamic marketing professional with 7+ years of experience driving brand growth and customer engagement across digital and traditional channels. Proven track record of developing successful campaigns that increase revenue by 30%+ and building high-performing teams. Skilled in strategic planning, content creation, social media management, and data-driven decision making."
   },
   "media": [],
@@ -91,7 +93,6 @@
       "institution": "Crestview State University",
       "qualificationTitle": "Bachelor of Business Administration (BBA) - Marketing",
       "endDate": "2015-04-30T22:00:00.000Z",
-      "Location": "Crestview, OR",
       "description": "Crestview, OR, Honors: Dean's List: Fall 2013, Spring 2014, Fall 2014"
     }
   ],
@@ -101,40 +102,40 @@
       "category": "Certifications & Training",
       "organization": "Digital Marketing Institute",
       "description": "Digital Marketing Certified Professional (DMCP)",
-      "date": 2021
+      "date": "2021"
     },
     {
       "array_index": 1,
       "category": "Certifications & Training",
       "organization": "Content Marketing Academy",
       "description": "Content Marketing Certification",
-      "date": 2020
+      "date": "2020"
     },
     {
       "array_index": 2,
       "category": "Certifications & Training",
       "organization": "Web Analytics Association",
       "description": "Analytics Professional Certification",
-      "date": 2019
+      "date": "2019"
     },
     {
       "array_index": 3,
       "category": "Achievements & Recognition",
       "description": "Marketing Excellence Award",
       "organization": "Velocity Consumer Brands",
-      "date": 2022
+      "date": "2022"
     },
     {
       "array_index": 4,
       "category": "Achievements & Recognition",
       "description": "Campaign featured in Marketing Innovation Magazine as industry best practice",
-      "date": 2021
+      "date": "2021"
     },
     {
       "array_index": 5,
       "category": "Achievements & Recognition",
       "description": "Led team that won company-wide innovation challenge with new customer engagement concept",
-      "date": 2020
+      "date": "2020"
     },
     {
       "array_index": 6,

@@ -1,8 +1,10 @@
 {
   "personalInfo": {
     "fullName": "Victoria Hammond",
-    "emails": "v.hammond@lawfirm-example.com",
-    "phones": "987123456",
+    "contact": {
+      "emails": ["v.hammond@lawfirm-example.com"],
+      "phones": ["987123456"]
+    },
     "personalStatement": "Accomplished corporate attorney with 14+ years of experience in mergers & acquisitions, corporate governance, and commercial litigation."
   },
   "media": [],

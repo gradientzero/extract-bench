@@ -35,6 +35,10 @@
           "name"
         ],
         "properties": {
+          "array_index": {
+            "type": "integer",
+            "evaluation_config": "integer_exact"
+          },
           "name": {
             "type": "string",
             "evaluation_config": "string_semantic"
@@ -78,6 +82,10 @@
           "year"
         ],
         "properties": {
+          "array_index": {
+            "type": "integer",
+            "evaluation_config": "integer_exact"
+          },
           "ids": {
             "type": "string",
             "description": "The unique identifier for the paper. Example: '10.1000/xyz123' or 'arXiv:1234.5678'.",
@@ -102,6 +110,10 @@
             "items": {
               "type": "object",
               "properties": {
+                "array_index": {
+                  "type": "integer",
+                  "evaluation_config": "integer_exact"
+                },
                 "name": {
                   "type": "string",
                   "evaluation_config": "string_semantic"

@@ -23,6 +23,7 @@
         "items": {
           "type": "object",
           "properties": {
+            "array_index": {"type": "integer", "evaluation_config": "integer_exact"},
             "content": {
               "type": "string",
               "evaluation_config": "string_semantic",
@@ -68,6 +69,7 @@
         "items": {
           "type": "object",
           "properties": {
+            "array_index": {"type": "integer", "evaluation_config": "integer_exact"},
             "endDate": {
               "anyOf": [
                 {"type": "string", "evaluation_config": "string_exact"},
@@ -167,6 +169,7 @@
         "items": {
           "type": "object",
           "properties": {
+            "array_index": {"type": "integer", "evaluation_config": "integer_exact"},
             "link": {
               "type": "string",
               "evaluation_config": "string_exact",
@@ -201,8 +204,8 @@
         "evaluation_config": "array_llm",
         "items": {
           "type": "object",
-          "required": ["description"],
           "properties": {
+            "array_index": {"type": "integer", "evaluation_config": "integer_exact"},
             "employer": {
               "type": "string",
               "evaluation_config": "string_semantic",
@@ -254,6 +257,7 @@
         "items": {
           "type": "object",
           "properties": {
+            "array_index": {"type": "integer", "evaluation_config": "integer_exact"},
             "date": {
               "type": "string",
               "evaluation_config": "string_exact",

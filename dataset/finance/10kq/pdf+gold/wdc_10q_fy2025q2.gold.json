@@ -1699,17 +1699,6 @@
         "value": 274
       }
     ],
-    "commercial_paper": [
-      {
-        "data_period": "FY2025 Q2",
-        "metric_type": "actual",
-        "segment_type": "company",
-        "segment_name": "NA",
-        "unit": "NA",
-        "scale": null,
-        "value": null
-      }
-    ],
     "dividends_paid": [
       {
         "data_period": "FY2025 Q2",
